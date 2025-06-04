@@ -1,0 +1,29 @@
+{
+  "name": "a2a-types",
+  "version": "1.0.0",
+  "description": "TypeScript types for A2A integration",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "update-types": "curl -fsSL https://raw.githubusercontent.com/google-a2a/A2A/refs/heads/main/types/src/types.ts -o dist/index.d.ts"
+  },
+  "keywords": [
+    "typescript",
+    "types",
+    "a2a"
+  ],
+  "author": "Matt Venables",
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.11.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venables/a2a-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/venables/a2a-types/issues"
+  },
+  "homepage": "https://github.com/venables/a2a-types#readme"
+}
