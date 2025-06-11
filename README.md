@@ -1,5 +1,11 @@
 # a2a-types
 
+> [!NOTE]  
+> Google has published the official A2A JavaScript SDK. You should use that insetad.
+> https://github.com/google-a2a/a2a-js
+
+--- 
+
 A tiny TypeScript types library containing Google's official A2A (Agent2Agent) types, directly from <https://github.com/google-a2a/A2A/tree/main/types>
 
 ## Installation
